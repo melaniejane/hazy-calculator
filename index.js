@@ -13,7 +13,6 @@ const calculate = (input) => {
   if (calculations.length !== 3) {
     return NaN;
   }
-
   return perfCalculation(calculations);
 };
 const perfCalculation = (incomingCalcs) => {
@@ -26,7 +25,6 @@ const perfCalculation = (incomingCalcs) => {
       return Number(incomingCalcs[0]) * Number(incomingCalcs[2]);
     case "/":
       return Number(incomingCalcs[0]) / Number(incomingCalcs[2]);
-
     default:
       return NaN;
   }
