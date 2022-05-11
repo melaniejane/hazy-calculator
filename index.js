@@ -35,7 +35,6 @@ const isANumber = (number) => {
   if (!isNaN(number) && number !== "") {
     return true;
   }
-
   return false;
 };
 const isValid = (operator) => {
@@ -47,5 +46,4 @@ const isValid = (operator) => {
 
   return false;
 };
-
 module.exports = calculate;
